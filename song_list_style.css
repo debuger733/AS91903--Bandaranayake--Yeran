@@ -1,0 +1,39 @@
+#genre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.genres-container {
+  padding: 20px;
+}
+
+.genres-row {
+  display: flex;
+  gap: 20px;  /* space between cards */
+  justify-content: space-around;
+}
+
+.genre-names{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.genre-card {
+  flex: 1;
+  background-color: #b8c5d6;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.genre-card ol {
+  text-align: left;
+  display: inline-block;
+  line-height: 40px;
+}
+
+.song-name {
+  font-size: 18px;
+  font-weight: bold;
+}
