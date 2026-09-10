@@ -19,6 +19,13 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
 }
+
+.genre-description{
+  font-size: 20px;
+  max-width: 79ch;
+  font-style: italic;
+}
+
 .genre-card {
   flex: 1;
   background-color: #b8c5d6;

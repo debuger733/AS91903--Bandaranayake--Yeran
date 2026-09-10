@@ -4,7 +4,7 @@
 }
 
 #header{
-    background-color: #043649;
+    background-color:rgb(23, 61, 61);
     padding-bottom: 5px;
 }
 #logo{
@@ -42,6 +42,7 @@
     float: right;
     padding-left: 200px;
     padding-top: 20px;
+    max-width: 79ch;
 }
 
 .row-container {
@@ -126,11 +127,6 @@
     margin-top: 0;
 }
 
-.services-section ul {
-    list-style-position: inside;
-    line-height: 1.8;
-}
-
 .book-container {
     text-align: left;
     clear: both; /* To make sure it sits below any floated elements */
@@ -151,7 +147,7 @@
 }
 
 .footer {
-  background-color: #6b6b6b;
+  background-color:rgb(23, 61, 61);
   padding: 40px 20px;
   margin-top: 40px;
 }
