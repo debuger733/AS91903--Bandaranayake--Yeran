@@ -1,0 +1,148 @@
+.bookings-container {
+    display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.bookings-left, .bookings-right {
+    flex: 1;
+    max-width: 500px;
+}
+
+.booking-section {
+    background-color: #c9d6e8;
+    padding: 30px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.booking-section h2 {
+    color: #043649;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-section p {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Description Box */
+.description-box {
+    text-align: center;
+}
+
+/* FAQ Box for the question and answers */
+.common-questions{
+    padding: 30px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+}
+.faq-box h2 {
+    margin-bottom: 25px;
+}
+
+.faq-item {
+    margin-bottom: 30px;
+}
+
+.questions {
+    font-size: 20px;
+    font-weight: bold;      
+    margin: 0 0 8px 0;
+    color: black;}
+
+.answers {
+    font-size: 18px;
+    font-style: italic;
+
+    color: #043649;
+    padding-top: 5px;
+}
+
+/* Contact Box */
+.contact-box {
+    text-align: center;
+}
+
+.contact-box h2 {
+    margin-bottom: 25px;
+}
+
+.contact-information {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.contact-information strong {
+    color: #043649;
+}
+
+.contact-note {
+    font-size: 13px;
+    color: #555;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+/* Form Box */
+.form-box {
+    text-align: center;
+    background-color: transparent;
+}
+
+
+.form-box p {
+    font-size: 20px;
+    font-weight:700;
+    margin-bottom: 20px;    
+}
+
+.form-button {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    background-color: #e01e1e;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin: 15px 0;
+}
+
+.form-button:hover {
+    background-color: #c41616;
+}
+
+#note{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 5px;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .bookings-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .bookings-left,
+    .bookings-right {
+        max-width: 100%;
+    }
+
+    .booking-section {
+        padding: 20px;
+    }
+}
